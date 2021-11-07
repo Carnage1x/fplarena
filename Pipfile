@@ -1,0 +1,4 @@
+[packages]
+tweepy = "*"
+pandas = "*"
+requests = "*"
