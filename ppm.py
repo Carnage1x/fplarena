@@ -4,10 +4,10 @@ import pandas as pd
 
 def ppmbot():
     # Consumer keys and access tokens, used for Tweepy
-    CONSUMER_KEY = 'enterhere'
-    CONSUMER_SECRET = 'enterhere'
-    ACCESS_KEY = 'enterhere'
-    ACCESS_SECRET = 'enterhere'
+    CONSUMER_KEY = 'DVzNUuThVp2FJH2G24Ns7KCj4'
+    CONSUMER_SECRET = 'fBR6DZREh7t96335aXqgM01bn9obQuBnNWItlJY8il6eBYBBNw'
+    ACCESS_KEY = '1439036653713068033-VBTJ1NhuPq5d8wtt2t7hoiPmXncmN2'
+    ACCESS_SECRET = 'AHT3lYjuBuhuxBGZmqdKB9Tk6w7IoVIc9G9YVJxF1BuU2'
 
     auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
     auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
