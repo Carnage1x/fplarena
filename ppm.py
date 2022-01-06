@@ -4,17 +4,16 @@ import pandas as pd
 
 def ppmbot():
     # Consumer keys and access tokens, used for Tweepy
-    CONSUMER_KEY = 'DVzNUuThVp2FJH2G24Ns7KCj4'
-    CONSUMER_SECRET = 'fBR6DZREh7t96335aXqgM01bn9obQuBnNWItlJY8il6eBYBBNw'
-    ACCESS_KEY = '1439036653713068033-VBTJ1NhuPq5d8wtt2t7hoiPmXncmN2'
-    ACCESS_SECRET = 'AHT3lYjuBuhuxBGZmqdKB9Tk6w7IoVIc9G9YVJxF1BuU2'
-
+    CONSUMER_KEY = <<Get your key from the Twitter Dev website>>
+    CONSUMER_SECRET = <<Get your key from the Twitter Dev website>>
+    ACCESS_KEY = <<Get your key from the Twitter Dev website>>
+    ACCESS_SECRET = <<Get your key from the Twitter Dev website>>
+    
     auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
     auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
     api = tweepy.API(auth)
     
     #Accessing the Fantasy Premier League API
-    
     element_url = 'https://fantasy.premierleague.com/api/bootstrap-static/'
     req = requests.get(element_url)
     fpl_data = req.json()
